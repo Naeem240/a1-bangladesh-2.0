@@ -3,6 +3,9 @@
     font-family: "Fira Sans", serif;
     background-color: #F1F1F3;
 }
+button{
+    cursor: pointer;
+}
 /* Navbar Style Start */
 nav{
     display: flex;
@@ -12,10 +15,14 @@ nav button{
     padding: 15px 30px;
     color: #006A50;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Fira Sans", serif;
     border: 2px solid #006A50;
     border-radius: 10px;
+}
+nav button:hover{
+    background-color: #C6E4D6;
+    color: black;
 }
 /* Navbar Style End */
 
@@ -46,8 +53,12 @@ nav button{
     padding: 17px 34px;
     border-radius: 10px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: #004B3E;
 }
 .banner-img{
     width: 474.03px;
@@ -75,6 +86,10 @@ nav button{
     height: 325px;
     padding: 32px;
     border-radius: 10px;
+    box-shadow: 0px 5px 15px lightgray;
+}
+.vision-content div:hover{
+    background-color:aliceblue;
 }
 .vision-content img{
     width: 64px;
@@ -128,6 +143,9 @@ nav button{
     gap: 32px;
     background-color: white;
     border-radius: 10px;
+}
+.card-1:hover, .card-2:hover{
+    background-color: aliceblue;
 }
 .card-1{
     margin-bottom: 24px;
@@ -185,6 +203,9 @@ nav button{
     box-shadow: 2px 5px 10px grey;
     cursor: pointer;
 }
+.donate>div h1:hover{
+    background-color: #C6E4D6;
+}
 .color-money{
     background-color: #C6E4D6 !important;
 }
@@ -202,3 +223,36 @@ nav button{
     margin: 0px auto;
 }
 /* Donate End */
+
+/* Newsletter Start */
+.newsletter{
+    margin-top: 80px;
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 80px 100px;
+}
+.newsletter>h1{
+    font-size: 40px;
+}
+.newsletter p{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.newsletter input[type=text]{
+    width: 600px;
+    height: 55px;
+    border: none;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.newsletter input[type=submit]{
+    height: 56px !important;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Newsletter End */
