@@ -1,0 +1,161 @@
+.main-body{
+    margin: 24px 160px;
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
+}
+/* Navbar Style Start */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    padding: 15px 30px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Fira Sans", serif;
+    border: 2px solid #006A50;
+    border-radius: 10px;
+}
+/* Navbar Style End */
+
+/* Banner Style Start */
+.primary-bg{
+    background-color: #C6E4D6;
+}
+.banner{
+    margin-top: 20px;
+    display: flex;
+    padding: 80px 60px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 64px;
+}
+.ligth-dark{
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-content-title{
+    font-size: 24px;
+}
+.banner-content-description{
+    font-size: 45px;
+}
+.primary-btn{
+    background-color: #006A50;
+    color: #FFFF;
+    padding: 17px 34px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+.banner-img{
+    width: 474.03px;
+    height: 400px;
+}
+/* Banner Style End */
+
+/* The Vision of future Start */
+.vision{
+    margin-top: 80px;    
+}
+.primary-heading{
+    font-size: 40px;
+}
+.vision-description{
+    line-height: 24px;
+}
+.vision-content{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.vision-content div{
+    width: 410px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 10px;
+}
+.vision-content img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+/* Shared */
+.secondary-heading{
+    font-size: 20px;
+}
+.vision-content p{
+    line-height: 24px;
+    height: 72px;
+    margin-bottom: 40px;
+}
+.digital{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.digital button{
+    background-color: #5490F5;
+}
+.green{
+    background-color: #C6E4D6;
+}
+.green button{
+    background-color: #09A15C;
+}
+.modern{
+    background-color: #F7EBCF;
+}
+.modern button{
+    background-color: #FFC239;
+}
+/* The Vision of future End */
+
+/* Recent News Start */
+.recent-news{
+    margin-top: 80px;
+}
+.recent-news h1{
+    font-size: 40px;
+}
+.recent-news p{
+    line-height: 24px;
+    /* margin-bottom: 32px; */
+}
+.card-1, .card-2{
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-1{
+    margin-bottom: 24px;
+}
+.card-1>img, .card-2>img{
+    width: 440px;
+    height: 325px;
+    border-radius: 15px;
+}
+.card-1 h1, .card-2 h1{
+    font-size: 28px;
+    display: inline;
+}
+
+.card-1 div img, .card-2 div img{
+    width: 134px;
+    height: 40px;
+    margin: 12px 0px;
+}
+.card-1 div span, .card-2 div span{
+    margin-left: 12px;
+}
+.card-1 div p, .card-2 div p{
+    line-height: 24px;
+    /* margin-bottom: 32px; */
+}
+.card-1 button, .card-2 button{
+    padding: 10px 26px;
+    font-size: 18px;
+}
+/* Recent News End */
