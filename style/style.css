@@ -11,13 +11,19 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.green2{
+    color: green;
+}
+.red{
+    color: red;
+}
 nav button{
     padding: 15px 30px;
     color: #006A50;
     font-size: 18px;
     font-weight: 600;
     font-family: "Fira Sans", serif;
-    border: 2px solid #006A50;
+    border: 1px solid #006A50;
     border-radius: 10px;
 }
 nav button:hover{
@@ -39,7 +45,7 @@ nav button:hover{
     gap: 64px;
 }
 .ligth-dark{
-    color: rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.8);
 }
 .banner-content-title{
     font-size: 24px;
@@ -218,6 +224,7 @@ nav button:hover{
     display: block;
     margin: 32px auto;
     border: none;
+    border-radius: 10px;
 }
 .donate-btn button{
     margin: 0px auto;
@@ -230,13 +237,14 @@ nav button:hover{
     background-color: #C6E4D6;
     text-align: center;
     padding: 80px 100px;
+    border-radius: 10px;
 }
 .newsletter>h1{
     font-size: 40px;
 }
 .newsletter p{
     line-height: 24px;
-    color: rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.7);
 }
 .newsletter input[type=text]{
     width: 600px;
@@ -248,7 +256,7 @@ nav button:hover{
 
 }
 .newsletter input[type=submit]{
-    height: 56px !important;
+    height: 55px !important;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
@@ -256,3 +264,20 @@ nav button:hover{
 }
 
 /* Newsletter End */
+
+/* Quote Start */
+.quote{
+    margin-top: 80px;
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 10px;
+}
+.quote-img-p{
+    position: relative;
+}
+.quote-img-p p{
+    position: absolute;
+    top: 15%;
+}
+
+/* Quote End */
