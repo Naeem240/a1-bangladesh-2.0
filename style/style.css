@@ -159,3 +159,46 @@ nav button{
     font-size: 18px;
 }
 /* Recent News End */
+
+/* Donate Start */
+.donate{
+    margin-top: 80px;
+}
+.donate>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.donate p{
+    line-height: 24px;
+    text-align: center;
+}
+.donate>div{
+    display: flex;
+    justify-content: space-between;
+}
+.donate>div h1{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid lightgray;
+    box-shadow: 2px 5px 10px grey;
+    cursor: pointer;
+}
+.color-money{
+    background-color: #C6E4D6 !important;
+}
+
+.donate input{
+    width: 98%;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin: 32px auto;
+    border: none;
+}
+.donate-btn button{
+    margin: 0px auto;
+}
+/* Donate End */
